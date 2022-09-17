@@ -15,11 +15,8 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          See our Recent <strong className="purple">Projects </strong>
+          Our Recent <strong className="purple">Projects </strong>
         </h1>
-        <p style={{ color: "white" }}>
-          We providing excite projects.
-        </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard

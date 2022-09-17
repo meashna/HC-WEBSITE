@@ -1,21 +1,20 @@
 html {
     --section-background-color: linear-gradient(
       to bottom left,
-      rgba(219, 219, 219, 0.678),
-      rgba(170, 169, 169, 0.863)
+      rgba(17, 16, 16, 0.582),
+      rgba(12, 8, 24, 0.904)
     );
   
     --image-gradient: linear-gradient(
       to bottom left,
-      rgba(255, 255, 255, 0.678),
-      rgba(224, 224, 224, 0.863)
+      rgba(17, 16, 16, 0.678),
+      rgba(12, 10, 22, 0.863)
     );
   
-    --imp-text-color:var(--red);
+    --imp-text-color: #c770f0;
   }
   
   .purple {
-    
     color: var(--imp-text-color) !important;
   }
   
@@ -33,7 +32,7 @@ html {
     width: 100%;
     height: 100%;
     z-index: 999999;
-    background-color: #ffffff;
+    background-color: #0c0513;
     background-image: url(./Assets/pre.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -58,18 +57,18 @@ html {
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #ffffff;
+    background: #2d1950;
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgba(175, 57, 57, 0.959);
+    background: rgba(178, 121, 216, 0.959);
     border-radius: 12px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgba(216, 152, 152, 0.911);
+    background: rgba(222, 130, 235, 0.911);
     border-radius: 12px;
   }
   
@@ -77,9 +76,9 @@ html {
   /* Navbar Section  */
   /* --------- */
   .sticky {
-    background-color: #c4bdbdc2 !important;
+    background-color: #1b1a2ea9 !important;
     transition: all 0.3s ease-out 0s !important;
-    box-shadow: 0px 10px 10px 0px rgba(94, 86, 86, 0.589) !important;
+    box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
     backdrop-filter: blur(15px) !important;
   }
   
@@ -98,7 +97,7 @@ html {
   
   .navbar-toggler span {
     display: block !important;
-    background-color: #f45050 !important;
+    background-color: #be50f4 !important;
     height: 4px !important;
     width: 27px !important;
     margin-top: 5px !important;
@@ -145,7 +144,7 @@ html {
     .navbar {
       padding: 1rem 2rem !important;
       font-size: 1.4rem !important;
-      background-color: #e9eaf3 !important;
+      background-color: #181a27 !important;
     }
     .navbar-nav .nav-item a::after {
       display: none !important;
@@ -156,8 +155,8 @@ html {
   }
   
   .logo {
-    height: 3.4em !important;
-    width: 10.5em !important;
+    height: 1.4em !important;
+    width: 2.5em !important;
   }
   
   .navbar-nav .nav-link {
@@ -179,7 +178,6 @@ html {
   .navbar-nav .nav-item {
     position: relative;
     margin-left: 20px;
-    margin-top: 20px;
   }
   
   .navbar-nav .nav-item a {
@@ -196,7 +194,7 @@ html {
     height: 5px;
     width: 0;
     border-radius: 16px;
-    background: #f55b5b;
+    background: #c95bf5;
     bottom: 1px;
     left: 0;
     z-index: -1;
@@ -254,9 +252,6 @@ html {
   
   .home-header {
     padding-top: 80px !important;
-    color: #211f27;
-    font-size: large;
-    font-family: "Phantom Sans";
   }
   
   .home-section {
@@ -283,21 +278,20 @@ html {
   .heading-name {
     font-size: 2.5em !important;
     padding-left: 45px !important;
-    font-family: "Phantom Sans";
   }
   
   .main-name {
-    color: #f85f5f;
+    color: #cd5ff8;
   }
   
   .Typewriter__wrapper {
     font-size: 2.2em !important;
-    color: #df6a6a !important;
+    color: #be6adf !important;
     font-weight: 600 !important;
   }
   .Typewriter__cursor {
     font-size: 2.4em !important;
-    color: #d66262 !important;
+    color: #b562d6 !important;
   }
   
   @media (max-width: 767px) {
@@ -327,8 +321,6 @@ html {
     position: relative;
     padding-bottom: 70px !important;
     padding-top: 70px !important;
-    background-color: #dad6d6;
-    
   }
   
   .home-about-description {
@@ -342,16 +334,12 @@ html {
     padding-top: 50px;
     font-size: 1.2em !important;
     text-align: left;
-    color: #211f27;
-    font-family: "Roboto";
-  
   }
   
   .home-about-social {
     text-align: center !important;
     padding-top: 25px;
-    color: #211f27!important;
-    font-family: "Roboto";
+    color: white !important;
   }
   
   .home-about-social-links {
@@ -383,7 +371,7 @@ html {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background:#292424;
+    background: #68187a;
     transition: 0.5s;
     transform: scale(0.9);
     z-index: -1;
@@ -391,13 +379,13 @@ html {
   
   .home-social-icons:hover::before {
     transform: scale(1.1);
-    box-shadow: 0 0 15px #951f1f;
+    box-shadow: 0 0 15px #801f95;
   }
   
   .home-social-icons:hover {
-    color: #9e2020;
-    box-shadow: 0 0 5px #9e2020;
-    text-shadow: 0 0 2px #9e2020;
+    color: #87209e;
+    box-shadow: 0 0 5px #87209e;
+    text-shadow: 0 0 2px #87209e;
   }
   
   .social-icons {
@@ -407,21 +395,20 @@ html {
   }
   
   .icon-colour {
-    color: #ec3750 !important;
+    color: #700c86 !important;
   }
   
   /* --------- */
   /* Footer */
   /* --------- */
   .footer {
-    background-color: rgb(128, 104, 175);
+    background-color: rgb(10, 4, 22);
     bottom: 0 !important;
     padding-top: 10px !important;
     padding-bottom: 8px !important ;
   }
   .footer-copywright {
     text-align: center !important;
-   
   }
   
   .footer-body {
@@ -441,7 +428,6 @@ html {
   
   .footer h3 {
     font-size: 1em;
-    font-family: "system-ui";
     color: white !important;
     margin-top: 0.5em !important;
     margin-bottom: 0.5em !important;
@@ -453,7 +439,7 @@ html {
   }
   
   .blockquote-footer {
-    color: #211f27 !important;
+    color: #a588c0 !important;
   }
   /* --------- */
   /* Projects */
@@ -546,8 +532,7 @@ html {
     box-shadow: none !important;
   }
   .project-heading {
-    color: #211f27 !important;
-    font-family: "Phantom Sans";
+    color: white !important;
     font-size: 2.3em !important;
     font-weight: 500 !important;
     padding-top: 10px !important;
@@ -562,7 +547,7 @@ html {
     padding-top: 150px !important;
     padding-bottom: 30px !important;
     background-image: var(--section-background-color) !important;
-    color: #ec3750!important;
+    color: white !important;
   }
   
   .tech-icons {
@@ -583,34 +568,6 @@ html {
   @media (max-width: 767px) {
     .tech-icons {
       margin: 10px !important;
-    }
-  }
-  
-  .tech-icons:hover {
-    transform: scale(1.05) !important;
-    overflow: hidden !important;
-    border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
-  }
-  .tech-icon-images {
-    padding: 20px !important;
-    line-height: 1.6 !important;
-  }
-  
-  .quote-card-view {
-    border: none !important;
-    color: rgb(163, 52, 52) !important;
-    background-color: transparent !important;
-  }
-  
-  .about-activity {
-    list-style: none !important;
-    text-align: left !important;
-    padding-left: 1px !important;
-  }
-  
-  @media (max-width: 767px) {
-    .about-img {
-      padding-top: 0 !important;
     }
   }
   
@@ -770,7 +727,7 @@ html {
   
   .fork-btn-inner {
     line-height: 1.4em !important;
-    background-color: #ec3750 !important;
+    background-color: #934cce5e !important;
     padding: 0.25rem 1.1rem !important;
     vertical-align: middle !important;
     text-align: center !important;
@@ -778,21 +735,10 @@ html {
   
   .fork-btn-inner:hover {
     transform: translateY(-2px) !important;
-    background-color: #c4606d !important;
-    border-color: #5c494c !important;
+    background-color: #a24dd386 !important;
+    border-color: #a24dd386 !important;
   }
   .fork-btn-inner::after {
     display: none !important;
   }
   
-  .about-heading{
-    color: #211f27;
-    font-family: "Phantom Sans";
-  
-  }
-
- .blockquote mb-0{
-  color: #211f27;
- }
-
-

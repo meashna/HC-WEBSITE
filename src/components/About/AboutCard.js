@@ -27,7 +27,7 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p style={{ color: "rgb(33 31 39)" }}>
             "For the students by the students"{" "}
           </p>
           <footer className="blockquote-footer">Hack Club Kmea</footer>

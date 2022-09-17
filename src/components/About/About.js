@@ -20,7 +20,7 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "3.1em", paddingBottom: "20px" }}>
+            <h1 style={{ fontSize: "3.1em", paddingBottom: "20px"  }} className="about-heading">
               Know what is  <strong className="purple">HACK CLUB KMEA</strong>
             </h1>
             <Aboutcard />
@@ -34,15 +34,13 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-        <strong className="purple">Skills </strong> we develop through community activites
+          <strong>Skills we develop through community activities.</strong>
+        
         </h1>
 
         <Techstack />
 
-        <h1 className="project-heading">
-          <strong className="purple">Tools</strong>  we introduce to HACK Clubers
-        </h1>
-        <Toolstack />
+        
 
         
       </Container>

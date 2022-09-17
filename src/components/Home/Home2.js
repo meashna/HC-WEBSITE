@@ -15,15 +15,13 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              What we trying  <span className="purple"> TO DO</span> 
+            <h1 style={{ fontSize: "2.6em" ,fontFamily:"Phantom Sans"}}>
+               <span className="purple">WHAT WE ARE TRYING TO DO</span> 
             </h1>
             <p className="home-about-body">
               
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-              <i>
-                <b className="purple">  DEMO  </b>
-              </i>
+          
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -36,7 +34,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND US ON </h1>
             <p>
-              Feel free to <span className="purple">connect </span>HC KMEA
+              Feel free to connect <span className="purple">Hack Club KMEA </span>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
