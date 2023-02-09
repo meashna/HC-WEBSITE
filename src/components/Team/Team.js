@@ -32,114 +32,16 @@ function Projects1() {
               
             />
           </Col>
-          <Col md={4} className="project-card">
-           <div className="heading6">Tech team</div>
-           
-            <ProjectCard 
-              imgPath={ml}
-              isBlog={false}
-              title="ASHNA T"
-              description="-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque turpis nec dignissim placerat. -"
-              ghLink="https://twitter.com/ashnat__"
-              
-              
-            />
-          </Col>
+          
 
-          <Col md={4} className="project-card">
-           <div className="heading6">Tech team</div>
-           
-            <ProjectCard 
-              imgPath={ml}
-              isBlog={false}
-              title="ASHNA T"
-              description="-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque turpis nec dignissim placerat. -"
-              ghLink="https://twitter.com/ashnat__"
-              
-              
-            />
-          </Col>
+          
 
-          <Col md={4} className="project-card">
-           <div className="heading6">Tech team</div>
-           
-            <ProjectCard 
-              imgPath={ml}
-              isBlog={false}
-              title="ASHNA T"
-              description="-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque turpis nec dignissim placerat. -"
-              ghLink="https://twitter.com/ashnat__"
-              
-              
-            />
-          </Col>
+          
 
-          <Col md={4} className="project-card">
-           <div className="heading6">Tech team</div>
-           
-            <ProjectCard 
-              imgPath={ml}
-              isBlog={false}
-              title="ASHNA T"
-              description="-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque turpis nec dignissim placerat. -"
-              ghLink="https://github.com"
-             
-              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-           <div className="heading6">Tech team</div>
-           
-            <ProjectCard 
-              imgPath={ml}
-              isBlog={false}
-              title="ASHNA T"
-              description="-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque turpis nec dignissim placerat. -"
-              ghLink="https://github.com"
-              
-              
-            />
-          </Col>
-          <Col md={4} className="project-card">
-           <div className="heading6">Tech team</div>
-           
-            <ProjectCard 
-              imgPath={ml}
-              isBlog={false}
-              title="ASHNA T"
-              description="-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque turpis nec dignissim placerat. -"
-              ghLink="https://github.com"
-              
-              
-            />
-          </Col>
-          <Col md={4} className="project-card">
-           <div className="heading6">Tech team</div>
-           
-            <ProjectCard 
-              imgPath={ml}
-              isBlog={false}
-              title="ASHNA T"
-              description="-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque turpis nec dignissim placerat. -"
-              ghLink="https://github.com"
-              
-              
-            />
-          </Col>
-          <Col md={4} className="project-card">
-           <div className="heading6">Tech team</div>
-           
-            <ProjectCard 
-              imgPath={ml}
-              isBlog={false}
-              title="ASHNA T"
-              description="-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pellentesque turpis nec dignissim placerat. -"
-              ghLink="https://github.com"
-              
-              
-            />
-          </Col>
+          
+          
+         
+          
         </Row>
       </Container>
     </Container>
